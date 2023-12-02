@@ -12,3 +12,6 @@ spacebar : 점프
 마우스 좌클릭 : 공격
 마우스 우클릭 : 바라보는 방향의 공격 방어
 
+## 다운로드 링크
+https://drive.google.com/file/d/1flvpr1QS_1c2C2A_ruMVUNnyZzi5vv1h/view?usp=sharing
+
