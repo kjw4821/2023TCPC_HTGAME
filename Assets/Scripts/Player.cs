@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public Rigidbody2D rigid;
@@ -125,5 +125,7 @@ public class Player : MonoBehaviour
         anim.SetTrigger("IsDead");
         isKnockDown = true;
         yield return new WaitForSeconds(2f);
+
+        SceneManager.LoadScene("GameOver");
     }
 }

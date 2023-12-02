@@ -36,6 +36,7 @@ public class Enemy : MonoBehaviour
     IEnumerator Attack()
     {
         cooldown = true;
+        yield return new WaitForSeconds(1f);
         anim.SetTrigger("Attack");
         yield return new WaitForSeconds(0.5f);
         switch(enemy)
@@ -72,6 +73,7 @@ public class Enemy : MonoBehaviour
     {
         anim.SetTrigger("Dead");
         yield return new WaitForSeconds(1f);
+        GameManager.instance.score++;
         this.gameObject.SetActive(false);
     }
 }

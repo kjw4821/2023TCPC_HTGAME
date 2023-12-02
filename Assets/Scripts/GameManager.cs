@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public HUD hud;
     public static GameManager instance;
 
+    public int score = 0;
+
     private void Awake()
     {
         if (!instance)

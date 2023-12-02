@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: 1
   hp: 2
-  cooltime: 8
+  cooltime: 6
   weaponId: 4

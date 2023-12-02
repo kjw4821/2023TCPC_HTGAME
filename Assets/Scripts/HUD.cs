@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HUD : MonoBehaviour
 {
     public GameObject[] lifes;
+    public Text score;
     private void Awake()
     {
 
@@ -24,5 +26,10 @@ public class HUD : MonoBehaviour
                 break;
             }
         }
+    }
+
+    private void LateUpdate()
+    {
+        score.text = GameManager.instance.score.ToString();
     }
 }
