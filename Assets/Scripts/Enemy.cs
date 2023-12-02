@@ -31,6 +31,8 @@ public class Enemy : MonoBehaviour
     {
         if(!cooldown)
             StartCoroutine("Attack");
+        if (GameManager.instance.Abyss.position.y > transform.position.y)
+            StartCoroutine("Dead");
     }
 
     IEnumerator Attack()
