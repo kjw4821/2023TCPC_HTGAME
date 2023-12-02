@@ -12,6 +12,13 @@ spacebar : 점프
 마우스 좌클릭 : 공격
 마우스 우클릭 : 바라보는 방향의 공격 방어
 
+## 스크린샷
+![image](https://github.com/kjw4821/2023TCPC_HTGAME/assets/62633602/61750272-7c8b-46a2-839b-51681dc01346)
+![image](https://github.com/kjw4821/2023TCPC_HTGAME/assets/62633602/d8995eb6-29f5-4edd-82f7-378fcfd41be0)
+![image](https://github.com/kjw4821/2023TCPC_HTGAME/assets/62633602/3e214925-9436-40fe-9a97-afd4e686ee70)
+
+
+
 ## 다운로드 링크
 https://drive.google.com/file/d/1flvpr1QS_1c2C2A_ruMVUNnyZzi5vv1h/view?usp=sharing
 
